@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.psiada3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdvisorResources"></activity>
+        <activity android:name=".AdvisorPassword" />
+        <activity android:name=".DelegateResources" />
+        <activity android:name=".MemberContact" />
+        <activity android:name=".PhuncContact" />
+        <activity android:name=".PuncResources" />
+        <activity android:name=".PhuncResources" />
+        <activity android:name=".MemberResources" />
+        <activity android:name=".MemberPassword" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
