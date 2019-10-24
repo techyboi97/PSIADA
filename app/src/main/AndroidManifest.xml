@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/launcher_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdvisorResources"></activity>
+        <activity android:name=".SocialRooms"></activity>
+        <activity android:name=".AdvisorResources" />
         <activity android:name=".AdvisorPassword" />
         <activity android:name=".DelegateResources" />
         <activity android:name=".MemberContact" />
