@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "61842623867",
-    "firebase_url": "https://psiada.firebaseio.com",
-    "project_id": "psiada",
-    "storage_bucket": "psiada.appspot.com"
+    "project_number": "624738876204",
+    "firebase_url": "https://psiada-7d210.firebaseio.com",
+    "project_id": "psiada-7d210",
+    "storage_bucket": "psiada-7d210.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:61842623867:android:0aed8b5dc09ba6520a81de",
+        "mobilesdk_app_id": "1:624738876204:android:b7f51c787bc3e9f0b2ca89",
         "android_client_info": {
           "package_name": "com.example.psiada3"
         }
       },
       "oauth_client": [
         {
-          "client_id": "61842623867-hl36r71vsi0nmcu9gjabfm7dkvl4mmnn.apps.googleusercontent.com",
+          "client_id": "624738876204-fv809jlv885072rqm26grrh84blf0aoq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.psiada3",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "61842623867-6q5hlf0sbdtkbkq3d75sj5pec3u7gqtm.apps.googleusercontent.com",
+          "client_id": "624738876204-bjllmqp3f2mm96nldtok877ma66n1h5o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCli6Je2I3_YsGPyWJ8JPSNgzx62KgBv7E"
+          "current_key": "AIzaSyBhqtNgkBGirP5ebEfqFfx9N8f6AwlzBys"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "61842623867-6q5hlf0sbdtkbkq3d75sj5pec3u7gqtm.apps.googleusercontent.com",
+              "client_id": "624738876204-bjllmqp3f2mm96nldtok877ma66n1h5o.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
