@@ -30,7 +30,7 @@ public class AdvisorPassword extends AppCompatActivity {
 
                     startActivity(password_page_nav);
                 }
-            };
+            }
         });
     }
 

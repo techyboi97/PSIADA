@@ -30,7 +30,7 @@ public class MemberPassword extends AppCompatActivity {
 
                     startActivity(password_page_nav);
                 }
-            };
+            }
         });
     }
 
