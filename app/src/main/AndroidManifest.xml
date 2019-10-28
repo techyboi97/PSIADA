@@ -9,16 +9,6 @@
         android:roundIcon="@mipmap/launcher_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service
-            android:name=".FirebaseMessagingService"
-            android:enabled="true"
-            android:exported="true"></service>
-
-        <service android:name=".FirebaseMessagingService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
 
         <activity android:name=".AdvisorResources" />
         <activity android:name=".AdvisorPassword" />
