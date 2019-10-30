@@ -56,39 +56,25 @@
         app:layout_constraintVertical_bias="0.186" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.101"
-        app:srcCompat="@drawable/announcements" />
-
-    <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.151"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.141"
         app:srcCompat="@drawable/resources" />
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="395dp"
-        android:layout_height="355dp"
+        android:layout_width="392dp"
+        android:layout_height="441dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -102,14 +88,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:stretchColumns="*"
-                android:paddingLeft="-10dp">
+                android:stretchColumns="*">
 
                 <TableRow
                     android:layout_width="0dp"
@@ -136,20 +121,21 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.499" />
+
                     <Button
                         android:id="@+id/social"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="Social Info"
                         android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Social Info"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -184,20 +170,21 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.499" />
+
                     <Button
                         android:id="@+id/food"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="Food"
                         android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Food"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -210,20 +197,21 @@
                 <TableRow
                     android:layout_width="0dp"
                     android:layout_height="match_parent">
+
                     <Button
                         android:id="@+id/map"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="Map"
                         android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Map"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -231,20 +219,21 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.499" />
+
                     <Button
                         android:id="@+id/contact"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="Contact"
                         android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Contact"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -257,20 +246,21 @@
                 <TableRow
                     android:layout_width="0dp"
                     android:layout_height="match_parent">
+
                     <Button
                         android:id="@+id/charity"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="Charity"
                         android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Charity"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -278,20 +268,51 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.499" />
+
                     <Button
                         android:id="@+id/merch"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="Merchandise"
                         android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Merchandise"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.483"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.499" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/form"
+                        style="@style/buttonBack"
+                        android:layout_width="298dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_span="2"
+                        android:fontFamily="@font/merriweather_regular"
+                        android:gravity="center|center_vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Feedback Form"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"

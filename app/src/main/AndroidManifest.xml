@@ -9,16 +9,10 @@
         android:roundIcon="@mipmap/launcher_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service
-            android:name=".MessagingService"
-            android:enabled="true"
-            android:exported="true"></service>
 
         <activity android:name=".AdvisorResources" />
-        <activity android:name=".AdvisorPassword" />
         <activity android:name=".DelegateResources" />
         <activity android:name=".MemberContact" />
-        <activity android:name=".PhuncContact" />
         <activity android:name=".PuncResources" />
         <activity android:name=".PhuncResources" />
         <activity android:name=".MemberResources" />
@@ -30,6 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
     </application>
 
 </manifest>

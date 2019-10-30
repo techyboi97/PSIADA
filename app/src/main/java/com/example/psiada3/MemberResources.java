@@ -18,6 +18,7 @@ public class MemberResources extends AppCompatActivity {
     public Button web_button;
     public Button cal_button;
     public Button inte_button;
+    public Button contact_button;
 
     public void phunc_nav(){
         phunc_button = findViewById(R.id.phunc);
@@ -121,6 +122,18 @@ public class MemberResources extends AppCompatActivity {
         });
     }
 
+    public void contact(){
+        contact_button=findViewById(R.id.contact);
+        contact_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String con_link = "mailto:president@psiada.org";
+                Intent conIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(con_link));
+                startActivity(conIntent);
+            }
+        });
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -133,5 +146,6 @@ public class MemberResources extends AppCompatActivity {
         website();
         calendar();
         inte();
+        contact();
     }
 }

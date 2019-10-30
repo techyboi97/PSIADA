@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent password_page_nav = new Intent(MainActivity.this, AdvisorPassword.class);
+                Intent password_page_nav = new Intent(MainActivity.this, AdvisorResources.class);
 
                 startActivity(password_page_nav);
 
