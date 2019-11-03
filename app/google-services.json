@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:624738876204:android:b7f51c787bc3e9f0b2ca89",
         "android_client_info": {
-          "package_name": "com.example.psiada3"
+          "package_name": "com.psiada.app"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "624738876204-fv809jlv885072rqm26grrh84blf0aoq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.psiada3",
+            "package_name": "com.psiada.app",
             "certificate_hash": "26e7b566145f2cc13e5f9a73d149d5ef569b1cc3"
           }
         },
