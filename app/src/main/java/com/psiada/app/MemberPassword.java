@@ -14,7 +14,6 @@ public class MemberPassword extends AppCompatActivity {
     public EditText passwordInput;
     String password;
 
-    public String globalPassword = "MUNisFUN";
 
     public void submit(){
         submit_button = findViewById(R.id.submit);
@@ -25,7 +24,7 @@ public class MemberPassword extends AppCompatActivity {
                 passwordInput = (EditText) findViewById(R.id.password);
                 password = passwordInput.getText().toString();
 
-                if (password.equals(globalPassword)) {
+                if (password.equals(getString(R.string.member_password))) {
                     Intent password_page_nav = new Intent(MemberPassword.this, MemberResources.class);
 
                     startActivity(password_page_nav);

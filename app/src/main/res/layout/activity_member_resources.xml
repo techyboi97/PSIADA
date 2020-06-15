@@ -21,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081"
+        app:layout_constraintVertical_bias="0.118"
         app:srcCompat="@drawable/members" />
 
     <Button
@@ -38,7 +38,7 @@
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.185" />
+        app:layout_constraintVertical_bias="0.222" />
 
     <Button
         android:id="@+id/insta"
@@ -51,39 +51,25 @@
         android:stateListAnimator="@animator/button_press"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.991"
         app:layout_constraintStart_toEndOf="@+id/face"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.135"
-        app:srcCompat="@drawable/announcements" />
+        app:layout_constraintVertical_bias="0.222" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.151"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.148"
         app:srcCompat="@drawable/resources" />
 
     <ScrollView
@@ -99,7 +85,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.791">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -109,60 +95,34 @@
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:stretchColumns="*"
-                android:paddingLeft="-10dp">
-
-                <TableRow
-                android:layout_width="0dp"
-                android:layout_height="match_parent">
-
-                    <Button
-                        android:id="@+id/who"
-                        style="@style/buttonSmall"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-                        android:fontFamily="@font/merriweather_regular"
-                        android:gravity="center|center_vertical"
-                        android:paddingBottom="8dp"
-                        android:stateListAnimator="@animator/button_press"
-                        android:text="Who We Are"
-                        android:textSize="22dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.483"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.499" />
-                    <Button
-                        android:id="@+id/phunc"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
-                        android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="PHUNC Info"
-                        android:gravity="center|center_vertical"
-                        android:textSize="22dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.483"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.499" />
-                </TableRow>
+                android:paddingLeft="-10dp"
+                android:stretchColumns="*">
 
                 <TableRow
                     android:layout_width="0dp"
                     android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/phunc"
+                        style="@style/buttonSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/merriweather_regular"
+                        android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="PHUNC Info"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.483"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.499" />
 
                     <Button
                         android:id="@+id/website"
@@ -185,20 +145,27 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.499" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
                     <Button
                         android:id="@+id/punc"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="PUNC Info"
                         android:gravity="center|center_vertical"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="PUNC Info"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -206,25 +173,21 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.499" />
-                </TableRow>
 
-                <TableRow
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent">
                     <Button
                         android:id="@+id/cal"
+                        style="@style/buttonSmall"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
                         android:fontFamily="@font/merriweather_regular"
+                        android:gravity="center|center_vertical"
                         android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
                         android:text="Calendar"
-                        android:gravity="center|center_vertical"
                         android:textSize="22dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -232,27 +195,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintVertical_bias="0.499" />
-                    <Button
-                        android:id="@+id/contact"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
-                        style="@style/buttonSmall"
-                        android:stateListAnimator="@animator/button_press"
-                        android:fontFamily="@font/merriweather_regular"
-                        android:paddingBottom="8dp"
-                        android:text="Contact"
-                        android:gravity="center|center_vertical"
-                        android:textSize="22dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintHorizontal_bias="0.483"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:layout_constraintVertical_bias="0.499" />
+
                 </TableRow>
 
                 <TableRow
@@ -260,22 +203,41 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:id="@+id/inte"
-                        style="@style/buttonBack"
-                        android:layout_width="298dp"
+                        android:id="@+id/contact"
+                        style="@style/buttonSmall"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:layout_span="2"
                         android:fontFamily="@font/merriweather_regular"
                         android:gravity="center|center_vertical"
-                        android:paddingLeft="20dp"
+                        android:paddingBottom="8dp"
+                        android:stateListAnimator="@animator/button_press"
+                        android:text="Contact"
+                        android:textSize="22dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.483"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.499" />
+
+                    <Button
+                        android:id="@+id/integrity"
+                        style="@style/buttonSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/merriweather_regular"
                         android:paddingBottom="8dp"
                         android:stateListAnimator="@animator/button_press"
                         android:text="Integrity Form"
-                        android:textSize="22dp"
+                        android:textSize="21dp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.483"

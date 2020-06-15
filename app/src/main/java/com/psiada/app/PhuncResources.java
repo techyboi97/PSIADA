@@ -25,9 +25,8 @@ public class PhuncResources extends AppCompatActivity {
         face_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String face_url = "https://www.facebook.com/phuncpsu/";
                 Intent face_n = new Intent(Intent.ACTION_VIEW);
-                face_n.setData(Uri.parse(face_url));
+                face_n.setData(Uri.parse(getString(R.string.face_url)));
                 startActivity(face_n);
             }
         });
@@ -38,9 +37,8 @@ public class PhuncResources extends AppCompatActivity {
         insta_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String insta_url = "https://www.instagram.com/phuncvii/";
                 Intent insta_n = new Intent(Intent.ACTION_VIEW);
-                insta_n.setData(Uri.parse(insta_url));
+                insta_n.setData(Uri.parse(getString(R.string.insta_url)));
                 startActivity(insta_n);
             }
         });
@@ -51,9 +49,8 @@ public class PhuncResources extends AppCompatActivity {
         contact_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String conurl = "https://drive.google.com/open?id=1XaAaFHX7ObqaBvlLso_-UzKH4-AzPl9ACKdtV2cRI1A";
                 Intent con_n = new Intent(Intent.ACTION_VIEW);
-                con_n.setData(Uri.parse(conurl));
+                con_n.setData(Uri.parse(getString(R.string.contact_url)));
                 startActivity(con_n);
             }
         });
@@ -64,9 +61,8 @@ public class PhuncResources extends AppCompatActivity {
         room_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String room_url = "https://drive.google.com/open?id=1wLH3quwKNDTPo9bTMljFmW2vi5nUElMxyy7_BAfFnQU";
                 Intent room_n = new Intent(Intent.ACTION_VIEW);
-                room_n.setData(Uri.parse(room_url));
+                room_n.setData(Uri.parse(getString(R.string.room_url)));
                 startActivity(room_n);
             }
         });
@@ -77,9 +73,8 @@ public class PhuncResources extends AppCompatActivity {
         map_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String map_url = "https://drive.google.com/open?id=1D6jEOOagStCWYLe2dmbTyeptapaGXriZ";
                 Intent map_n = new Intent(Intent.ACTION_VIEW);
-                map_n.setData(Uri.parse(map_url));
+                map_n.setData(Uri.parse(getString(R.string.map_url)));
                 startActivity(map_n);
             }
         });
@@ -90,9 +85,8 @@ public class PhuncResources extends AppCompatActivity {
         social_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String social_url = "https://drive.google.com/open?id=1JaBN_c-FOe4piB3Iz5Hp5pkbu0MVae1P8lHGL4g5sOU";
                 Intent social_n = new Intent(Intent.ACTION_VIEW);
-                social_n.setData(Uri.parse(social_url));
+                social_n.setData(Uri.parse(getString(R.string.social_url)));
                 startActivity(social_n);
             }
         });
@@ -103,9 +97,8 @@ public class PhuncResources extends AppCompatActivity {
         survival_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String sur_url = "https://drive.google.com/open?id=1VSHkaFqrk6d2AwFpbDYuSRzc9WjyBkxz7aG5Kh0S-Fc";
                 Intent sur_n = new Intent(Intent.ACTION_VIEW);
-                sur_n.setData(Uri.parse(sur_url));
+                sur_n.setData(Uri.parse(getString(R.string.survival_url)));
                 startActivity(sur_n);
             }
         });
@@ -116,9 +109,8 @@ public class PhuncResources extends AppCompatActivity {
         policies_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String pol_url = "https://drive.google.com/open?id=16c8HcmlCeuDz_NhrTPCTzbtORgg1AcM3DyDjamOAPa4";
                 Intent pol_n = new Intent(Intent.ACTION_VIEW);
-                pol_n.setData(Uri.parse(pol_url));
+                pol_n.setData(Uri.parse(getString(R.string.pol_url)));
                 startActivity(pol_n);
             }
         });
